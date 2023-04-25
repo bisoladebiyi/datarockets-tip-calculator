@@ -14,9 +14,9 @@
 
 ![Dahboard](/src/assets/images/dashboard.png)
 ![Active state](/src/assets/images/activestate.png)
-![Custom tip](/src/assets/images/customtip.png.png)
-![Error state](/src/assets/images/errorstate.png.png)
-![Mobile view](/src/assets/images/mobileview.png.png)
+![Custom tip](/src/assets/images/customtip.png)
+![Error state](/src/assets/images/errorstate.png)
+![Mobile view](/src/assets/images/mobileview.png)
 
 ## Set Up
 
