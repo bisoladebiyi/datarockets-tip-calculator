@@ -1,0 +1,26 @@
+@import "./abstracts/_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+#root,
+body,
+.App {
+  height: 100%;
+  font-family: "Space Mono", sans-serif;
+}
+
+body {
+  background: $lightgrayishcyan;
+
+  .App {
+    display: grid;
+    place-items: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
