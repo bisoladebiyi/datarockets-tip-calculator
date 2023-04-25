@@ -1,4 +1,5 @@
 @import "./abstracts/_variables.scss";
+@import "./abstracts/_media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 * {
   padding: 0;
@@ -21,6 +22,19 @@ body {
     display: grid;
     place-items: center;
     width: 60%;
-    margin: 0 auto;
+    margin: 0px auto;
+
+    @include large_desktop {
+      width: 1500px;
+    }
+
+    @include tablet {
+      width: 80%;
+    }
+
+    @include mobile {
+      width: 100%;
+      place-items: end;
+    }
   }
 }

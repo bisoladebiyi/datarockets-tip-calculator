@@ -1,4 +1,5 @@
 @import "../../styles/abstracts/_variables.scss";
+@import "../../styles/abstracts/_media.scss";
 
 .Button {
   all: unset;
@@ -19,14 +20,20 @@
     color: $dark;
   }
 
-  &:hover,
-  &.focused:hover {
-    background: $lightgrayishcyan;
-    color: $dark;
+  @include desktop {
+    &:hover {
+      background: $lightgrayishcyan;
+      color: $dark;
+    }
   }
 
   &:disabled {
     opacity: 0.3;
     cursor: not-allowed;
+  }
+
+  @include mobile {
+    height: 40px;
+    font-size: 17px;
   }
 }

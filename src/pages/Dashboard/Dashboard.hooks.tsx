@@ -64,6 +64,7 @@ const useDashboard = () => {
     setNoOfPeople(0);
     setTipAmountPerPerson(0);
     setTotal(0);
+    setPeopleCountError(false);
   };
 
   const handleResetDisabling = () => {
@@ -94,7 +95,7 @@ const useDashboard = () => {
     setTotal,
     updateBillAndPeople,
     updateTipValue,
-    updateCustomTip
+    updateCustomTip,
   };
 };
 
